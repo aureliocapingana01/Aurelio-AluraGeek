@@ -17,10 +17,13 @@
   crossorigin="anonymous"
 />
 
+<link rel="shortcut icon" href="pages/favicon/favicon.ico" type="image/x-icon">
+
 <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/header.css">
   <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/footer.css">
 
   <title>AluraGeek</title>
 </head>
@@ -46,52 +49,114 @@
   </header>
 
   <main class="main">
-    <section class="main__produto">
-      <div class="produto__card">
-        <img class="card__img" src="img/main/sporting.jpg" alt="">
-        <h2 class="titulo">sporting</h2>
-        <div class="produto__card__info">
-          <span class="preco">60</span>
-          <i class="fa-solid fa-trash"></i>
+    
+    <section class="container">
+      <div class="container__titulo">
+        <h1 id="titulo__h1">Meus Produtos</h1>
+        <div class="bar"></div>
+      </div>
+      
+      <div class="main__produto">
+        <div class="produto__card">
+          <div class="produto__card__img">
+            <img class="img" src="img/main/city.webp" alt="">
+            <h2 class="titulo">City</h2>
+          </div>
+          <div class="produto__card__info">
+            <span class="preco">R$175.20</span>
+            <button class="deletar">X</button>
+          </div>
+          <button class="btn btn__compra">compra</button>
+        </div>
+        <div class="produto__card">
+          <div class="produto__card__img">
+            <img class="img" src="img/main/real.webp" alt="">
+            <h2 class="titulo">sporting</h2>
+          </div>
+          <div class="produto__card__info">
+            <span class="preco">R$200.50</span>
+            <button class="deletar">X</button>
+          </div>
+          <button class="btn btn__compra">compra</button>
+        </div>
+        <div class="produto__card">
+          <div class="produto__card__img">
+            <img class="img" src="img/main/barcelona.jpg" alt="">
+            <h2 class="titulo">Barcelona</h2>
+          </div>
+          <div class="produto__card__info">
+            <span class="preco">R$135.10</span>
+            <button class="deletar">X</button>
+          </div>
+          <button class="btn btn__compra">compra</button>
+        </div>
+        <div class="produto__card">
+          <div class="produto__card__img">
+            <img class="img" src="img/main/roma.webp" alt="">
+            <h2 class="titulo">AS Roma</h2>
+          </div>
+          <div class="produto__card__info">
+            <span class="preco">R$ 118.25</span>
+            <button class="deletar">X</button>
+          </div>
+          <button class="btn btn__compra">compra</button>
+        </div>
+        <div class="produto__card">
+          <div class="produto__card__img">
+            <img class="img" src="img/main/united.webp" alt="">
+            <h2 class="titulo">United</h2>
+          </div>
+          <div class="produto__card__info">
+            <span class="preco">R$ 105.20</span>
+            <button class="deletar">X</button>
+          </div>
+          <button class="btn btn__compra">compra</button>
+        </div>
+        <div class="produto__card">
+          <div class="produto__card__img">
+            <img class="img" src="img/main/psg.avif" alt="">
+            <h2 class="titulo">Psg</h2>
+          </div>
+          <div class="produto__card__info">
+            <span class="preco">R$ 99.20</span>
+            <button class="deletar">X</button>
+          </div>
+          <button class="btn btn__compra">compra</button>
         </div>
       </div>
-      <div class="produto__card">
-        <img class="card__img" src="img/main/sporting.jpg" alt="">
-        <h2 class="titulo">sporting</h2>
-        <div class="produto__card__info">
-          <span class="preco">60</span>
-          <i class="fa-solid fa-trash"></i>
-        </div>
-      </div>
-      <div class="produto__card">
-        <img class="card__img" src="img/main/sporting.jpg" alt="">
-        <h2 class="titulo">sporting</h2>
-        <div class="produto__card__info">
-          <span class="preco">60</span>
-          <i class="fa-solid fa-trash"></i>
-        </div>
-      </div>
-      <div class="produto__card">
-        <img class="card__img" src="img/main/sporting.jpg" alt="">
-        <h2 class="titulo">sporting</h2>
-        <div class="produto__card__info">
-          <span class="preco">60</span>
-          <i class="fa-solid fa-trash"></i>
-        </div>
-      </div>
+     
     </section>
 
-   <aside>
-    <div class="main__aside">
-      <h2>Lorem ipsum</h2>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis laboriosam dignissimos ex non, similique cumque corporis minima dolor ea reprehenderit nam, nihil, repellat iure quod blanditiis voluptas commodi necessitatibus doloremque!
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis laboriosam dignissimos ex non, similique cumque corporis minima dolor ea reprehenderit nam, nihil, repellat iure quod blanditiis voluptas commodi necessitatibus doloremque!
-      </p>
+   <aside class="main__aside">
+    <div class="aside__conatainer">
+      <h2 id="aside__titulo">Stroy</h2>
+      <div class="bar"></div>
     </div>
+    <p id="aside__paragrafro">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, voluptatibus fugiat beatae aperiam recusandae molestias sit voluptatum consequatur? Perspiciatis eligendi aut molestias hic quas ut animi? Maiores mollitia velit commodi.
+      Explicabo illum quisquam, vero consectetur libero sed vitae expedita sequi reiciendis asperiores facere temporibus corrupti, accusamus voluptatem, aliquid possimus eaque exercitationem ex fuga. Qui dolorem nisi expedita exercitationem quos officia.
+      Labore assumenda fugit natus voluptatum similique recusandae illo unde delectus eius a! Id ex alias molestiae magni aut, facilis deleniti ipsam voluptatem aspernatur voluptatum quia quaerat architecto minus illo tenetur?
+    </p>
    </aside>
   </main>
+
+  <footer class="rodape">
+    <div class="footer__container">
+      <div class="footer__autor">
+        <p>Desenvolvido por</p> <span id="autor">Aurélio Capingana</span>
+      </div>
+      <div class="footer__rede_socias">
+        <a href="#"><span class="um">Git</span><span class="dois">hub</span></a>
+        <a href="#"><span class="um">Liked</span><span class="dois">In</span></a>
+        <a href="#"><span class="um">Face</span><span class="dois">Book</span></a>
+        <a href="#"><span class="um">Insta</span><span class="dois">Gram</span></a>
+      </div>
+    </div>
+    <!-- <hr> -->
+    <div class="footer__info">
+      <!-- <p>Todos os direitos reservados</p> -->
+      <p>&COPY; Copyright - 2024</p>
+    </div>
+  </footer>
 </body>
 </html>

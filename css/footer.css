@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+.rodape {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  background: var(--cor-50);
+  padding: 2rem 5rem;
+}
+.rodape .footer__container {
+  display: flex;
+  justify-content: space-between;
+}
+.rodape .footer__container .footer__autor {
+  display: flex;
+  gap: 5px;
+  flex: 1;
+  font-size: 14;
+}
+.rodape .footer__container .footer__autor #autor {
+  color: var(--cor-verde);
+}
+
+.rodape .footer__container .footer__rede_socias {
+  display: flex;
+  gap: 20px;
+  /* flex: 1; */
+}
+.rodape .footer__container .footer__rede_socias .dois {
+  color: var(--cor-verde);
+}
+.rodape .footer__info {
+  display: flex;
+  justify-content: space-between;
+  color: #ccc;
+  font-size: 12px;
+}
