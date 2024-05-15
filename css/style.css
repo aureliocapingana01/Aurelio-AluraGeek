@@ -4,6 +4,7 @@
 
 :root {
   --cor-verde : #c4fe76;
+  --cor-confirma : #35af4a;
   --cor-cinza : #fdfdfd;
   --cor-50 : #272727;
   --cor-100 : #000000;
@@ -15,11 +16,13 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: var(--font-family);
 }
 
 html {
   height: 100%;
   min-height: 100%;
+  font-family: var(--font-family);
 }
 
 body {

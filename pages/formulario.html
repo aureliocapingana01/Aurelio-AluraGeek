@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Link para usar o fontawesome -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/solid.css"
+      integrity="sha384-Tv5i09RULyHKMwX0E8wJUqSOaXlyu3SQxORObAI08iUwIalMmN5L6AvlPX2LMoSE"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/fontawesome.css"
+      integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7"
+      crossorigin="anonymous"
+    />
+
+    <link
+      rel="shortcut icon"
+      href="pages/favicon/favicon.ico"
+      type="image/x-icon"
+    />
+
+    <link rel="stylesheet" href="../css/reset.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/header.css"/>
+    <link rel="stylesheet" href="../css/form.css"/>
+    <link rel="stylesheet" href="../css/footer.css" />
+
+    <title>AluraGeek-Form</title>
+  </head>
+
+  <body>
+    <header class="header">
+      <nav class="cabecalho">
+        <a href="../index.html" class="logo">
+          <span class="alura">Alura</span>
+          <span class="greek">Greek</span>
+        </a>
+
+        <div class="cabecalho__pesquisa">
+          <input
+            type="search"
+            id="pesquisa"
+            placeholder="pesquisa aqui"
+            class="pesquisa__input"
+          />
+          <button class="pesquisa__butao">
+            <img src="../img/header/search.png" alt="lupa de pesquisa" />
+          </button>
+        </div>
+
+        <div class="cabecalho__add">
+          <a href="#" class="cabecalho__add__item"
+            >Adicione <span class="fa fa-plus"></span
+          ></a>
+          <!-- <span class="fa fa-plus"></span> -->
+        </div>
+      </nav>
+    </header>
+    <main class="container__form">
+      <div class="titulo">
+        <h2 id="form__titulo">Adicionar Produto</h2>
+        <div class="bar"></div>
+      </div>
+
+      <form class="form">
+        <fieldset class="form__campo">
+          <label class="form__label" for="nome">Nome</label>
+          <input type="text" name="nome" id="nome" class="form__input" minlength="3" placeholder="Insira aqui o nome do produto" required>
+          <span class="form__erro"></span>
+        </fieldset>
+        <fieldset class="form__campo">
+          <label class="form__label" for="valor">Valor</label>
+          <input type="number" name="valor" id="valor" class="form__input" placeholder="Insira aqui o valor do produto" required>
+          <span class="form__erro"></span>
+        </fieldset>
+        <fieldset class="form__campo">
+          <label class="form__label" for="image">Imagem</label>
+          <input type="text" name="image" id="image" class="form__input" placeholder="Insira aqui a imagem do produto" required>
+          <span class="form__erro"></span>
+        </fieldset>
+
+        <div class="form__btn">
+          <button type="submit" class="btn_guardar" >Guardar</button>
+          <button type="submit" class="btn_limpar" >Limpar</button>
+        </div>
+
+      </form>
+    </main>
+    <footer class="rodape">
+      <div class="footer__container">
+        <div class="footer__autor">
+          <p>Desenvolvido por</p>
+          <span id="autor">Aurélio Capingana</span>
+        </div>
+        <div class="footer__rede_socias">
+          <a href="#"
+            ><span class="um">Git</span><span class="dois">hub</span></a
+          >
+          <a href="#"
+            ><span class="um">Liked</span><span class="dois">In</span></a
+          >
+          <a href="#"
+            ><span class="um">Face</span><span class="dois">Book</span></a
+          >
+          <a href="#"
+            ><span class="um">Insta</span><span class="dois">Gram</span></a
+          >
+        </div>
+      </div>
+      <!-- <hr> -->
+      <div class="footer__info">
+        <!-- <p>Todos os direitos reservados</p> -->
+        <p>&COPY; Copyright - 2024</p>
+      </div>
+    </footer>
+  </body>
+</html>

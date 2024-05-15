@@ -1,162 +1,221 @@
 <!DOCTYPE html>
-<html lang="pt">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- Link para usar o fontawesome -->
-  <link
-  rel="stylesheet"
-  href="https://use.fontawesome.com/releases/v5.15.4/css/solid.css"
-  integrity="sha384-Tv5i09RULyHKMwX0E8wJUqSOaXlyu3SQxORObAI08iUwIalMmN5L6AvlPX2LMoSE"
-  crossorigin="anonymous"
-/>
-<link
-  rel="stylesheet"
-  href="https://use.fontawesome.com/releases/v5.15.4/css/fontawesome.css"
-  integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7"
-  crossorigin="anonymous"
-/>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Link para usar o fontawesome -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/solid.css"
+      integrity="sha384-Tv5i09RULyHKMwX0E8wJUqSOaXlyu3SQxORObAI08iUwIalMmN5L6AvlPX2LMoSE"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/fontawesome.css"
+      integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7"
+      crossorigin="anonymous"
+    />
 
-<link rel="shortcut icon" href="pages/favicon/favicon.ico" type="image/x-icon">
+    <link
+      rel="shortcut icon"
+      href="pages/favicon/favicon.ico"
+      type="image/x-icon"
+    />
 
-<link rel="stylesheet" href="css/reset.css">
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/header.css">
-  <link rel="stylesheet" href="css/main.css">
-  <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/footer.css" />
 
-  <title>AluraGeek</title>
-</head>
-<body>
-  <header class="header">
-    <nav class="cabecalho">
-      <a href="#" class="logo">
-        <span class="alura">Alura</span>
-        <span class="greek">Greek</span>
-      </a>
-
-      <div class="cabecalho__pesquisa">
-        <input type="search" id="pesquisa" placeholder="pesquisa aqui" class="pesquisa__input"> 
-        <button class="pesquisa__butao"><img src="img/header/search.png" alt="lupa de pesquisa"></button>
+    <title>AluraGeek</title>
+  </head>
+  <body>
+    <!-- Carrinho -->
+    <div class="produto__models">
+      <div class="produto__item">
+          <a href="">
+              <div class="produto__item__img"><img src="" /></div>
+              <div class="produto__item__add">+</div>
+          </a>
+          <div class="produto__item__nome">--</div>
+          <div class="produto__item__preco">R$ --</div>
+          <div class="produto__item__desc">--</div>
       </div>
-     
-      <div class="cabecalho__add">
-        <a href="#" class="cabecalho__add__item">Adicione  <span class="fa fa-plus"></span></a>
-        <!-- <span class="fa fa-plus"></span> -->
+      <div class="cart--item">
+          <img src="" />
+          <div class="cart--item-nome">--</div>
+          <div class="cart--item--qtarea">
+              <button class="cart--item-qtmenos">-</button>
+              <div class="cart--item--qt">1</div>
+              <button class="cart--item-qtmais">+</button>
+          </div>
       </div>
-    </nav>
+  </div>
 
-  </header>
+    <header class="header">
+      <nav class="cabecalho">
+        <a href="#" class="logo">
+          <span class="alura">Alura</span>
+          <span class="greek">Greek</span>
+        </a>
 
-  <main class="main">
-    
-    <section class="container">
-      <div class="container__titulo">
-        <h1 id="titulo__h1">Meus Produtos</h1>
-        <div class="bar"></div>
-      </div>
-      
-      <div class="main__produto">
-        <div class="produto__card">
-          <div class="produto__card__img">
-            <img class="img" src="img/main/city.webp" alt="">
-            <h2 class="titulo">City</h2>
-          </div>
-          <div class="produto__card__info">
-            <span class="preco">R$175.20</span>
-            <button class="deletar">X</button>
-          </div>
-          <button class="btn btn__compra">compra</button>
+        <div class="cabecalho__pesquisa">
+          <input
+            type="search"
+            id="pesquisa"
+            placeholder="pesquisa aqui"
+            class="pesquisa__input"
+          />
+          <button class="pesquisa__butao">
+            <img src="img/header/search.png" alt="lupa de pesquisa" />
+          </button>
         </div>
-        <div class="produto__card">
-          <div class="produto__card__img">
-            <img class="img" src="img/main/real.webp" alt="">
-            <h2 class="titulo">sporting</h2>
-          </div>
-          <div class="produto__card__info">
-            <span class="preco">R$200.50</span>
-            <button class="deletar">X</button>
-          </div>
-          <button class="btn btn__compra">compra</button>
-        </div>
-        <div class="produto__card">
-          <div class="produto__card__img">
-            <img class="img" src="img/main/barcelona.jpg" alt="">
-            <h2 class="titulo">Barcelona</h2>
-          </div>
-          <div class="produto__card__info">
-            <span class="preco">R$135.10</span>
-            <button class="deletar">X</button>
-          </div>
-          <button class="btn btn__compra">compra</button>
-        </div>
-        <div class="produto__card">
-          <div class="produto__card__img">
-            <img class="img" src="img/main/roma.webp" alt="">
-            <h2 class="titulo">AS Roma</h2>
-          </div>
-          <div class="produto__card__info">
-            <span class="preco">R$ 118.25</span>
-            <button class="deletar">X</button>
-          </div>
-          <button class="btn btn__compra">compra</button>
-        </div>
-        <div class="produto__card">
-          <div class="produto__card__img">
-            <img class="img" src="img/main/united.webp" alt="">
-            <h2 class="titulo">United</h2>
-          </div>
-          <div class="produto__card__info">
-            <span class="preco">R$ 105.20</span>
-            <button class="deletar">X</button>
-          </div>
-          <button class="btn btn__compra">compra</button>
-        </div>
-        <div class="produto__card">
-          <div class="produto__card__img">
-            <img class="img" src="img/main/psg.avif" alt="">
-            <h2 class="titulo">Psg</h2>
-          </div>
-          <div class="produto__card__info">
-            <span class="preco">R$ 99.20</span>
-            <button class="deletar">X</button>
-          </div>
-          <button class="btn btn__compra">compra</button>
-        </div>
-      </div>
-     
-    </section>
 
-   <aside class="main__aside">
-    <div class="aside__conatainer">
-      <h2 id="aside__titulo">Stroy</h2>
-      <div class="bar"></div>
-    </div>
-    <p id="aside__paragrafro">
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, voluptatibus fugiat beatae aperiam recusandae molestias sit voluptatum consequatur? Perspiciatis eligendi aut molestias hic quas ut animi? Maiores mollitia velit commodi.
-      Explicabo illum quisquam, vero consectetur libero sed vitae expedita sequi reiciendis asperiores facere temporibus corrupti, accusamus voluptatem, aliquid possimus eaque exercitationem ex fuga. Qui dolorem nisi expedita exercitationem quos officia.
-      Labore assumenda fugit natus voluptatum similique recusandae illo unde delectus eius a! Id ex alias molestiae magni aut, facilis deleniti ipsam voluptatem aspernatur voluptatum quia quaerat architecto minus illo tenetur?
-    </p>
-   </aside>
-  </main>
+        <div class="menu-openner"><span>0</span>🛒</div>
 
-  <footer class="rodape">
-    <div class="footer__container">
-      <div class="footer__autor">
-        <p>Desenvolvido por</p> <span id="autor">Aurélio Capingana</span>
+        <div class="cabecalho__add">
+          <a href="./pages/formulario.html" class="cabecalho__add__item"
+            >Adicione <span class="fa fa-plus"></span
+          ></a>
+          <!-- <span class="fa fa-plus"></span> -->
+        </div>
+      </nav>
+    </header>
+
+    <main class="main">
+      <section class="container">
+        <div class="container__titulo">
+          <h1 id="titulo__h1">Meus Produtos</h1>
+          <div class="bar"></div>
+        </div>
+
+        <div class="main__produto">
+          <div class="produto__card">
+            <div class="produto__card__img">
+              <img class="img" src="img/main/city.webp" alt="" />
+              <h2 class="titulo">City</h2>
+            </div>
+            <div class="produto__card__info">
+              <span class="preco">R$175.20</span>
+              <button class="deletar">X</button>
+            </div>
+            <button class="btn btn__compra">compra</button>
+          </div>
+          <div class="produto__card">
+            <div class="produto__card__img">
+              <img class="img" src="img/main/real.webp" alt="" />
+              <h2 class="titulo">sporting</h2>
+            </div>
+            <div class="produto__card__info">
+              <span class="preco">R$200.50</span>
+              <button class="deletar">X</button>
+            </div>
+            <button class="btn btn__compra">compra</button>
+          </div>
+          <div class="produto__card">
+            <div class="produto__card__img">
+              <img class="img" src="img/main/barcelona.jpg" alt="" />
+              <h2 class="titulo">Barcelona</h2>
+            </div>
+            <div class="produto__card__info">
+              <span class="preco">R$135.10</span>
+              <button class="deletar">X</button>
+            </div>
+            <button class="btn btn__compra">compra</button>
+          </div>
+          <div class="produto__card">
+            <div class="produto__card__img">
+              <img class="img" src="img/main/roma.webp" alt="" />
+              <h2 class="titulo">AS Roma</h2>
+            </div>
+            <div class="produto__card__info">
+              <span class="preco">R$ 118.25</span>
+              <button class="deletar">X</button>
+            </div>
+            <button class="btn btn__compra">compra</button>
+          </div>
+          <div class="produto__card">
+            <div class="produto__card__img">
+              <img class="img" src="img/main/united.webp" alt="" />
+              <h2 class="titulo">United</h2>
+            </div>
+            <div class="produto__card__info">
+              <span class="preco">R$ 105.20</span>
+              <button class="deletar">X</button>
+            </div>
+            <button class="btn btn__compra">compra</button>
+          </div>
+          <div class="produto__card">
+            <div class="produto__card__img">
+              <img class="img" src="img/main/psg.avif" alt="" />
+              <h2 class="titulo">Psg</h2>
+            </div>
+            <div class="produto__card__info">
+              <span class="preco">R$ 99.20</span>
+              <button class="deletar">X</button>
+            </div>
+            <button class="btn btn__compra">compra</button>
+          </div>
+        </div>
+      </section>
+
+      <aside class="main__aside">
+        <div class="aside__conatainer">
+          <h2 id="aside__titulo">Carrinho</h2>
+          <div class="bar"></div>
+        </div>
+
+        <div class="cart--area">
+          <div class="menu-closer">❌</div>
+          <h1>Seus Produtos</h1>
+          <div class="cart"></div>
+          <div class="cart--details">
+              <div class="cart--totalitem subtotal">
+                  <span>Subtotal</span>
+                  <span>R$ --</span>
+              </div>
+              <div class="cart--totalitem desconto">
+                  <span>Desconto (-10%)</span>
+                  <span>R$ --</span>
+              </div>
+              <div class="cart--totalitem">
+                  <span>Total</span>
+                  <span>R$ --</span>
+              </div>
+              <div class="cart--finalizar">Finalizar a compra</div>
+          </div>
       </div>
-      <div class="footer__rede_socias">
-        <a href="#"><span class="um">Git</span><span class="dois">hub</span></a>
-        <a href="#"><span class="um">Liked</span><span class="dois">In</span></a>
-        <a href="#"><span class="um">Face</span><span class="dois">Book</span></a>
-        <a href="#"><span class="um">Insta</span><span class="dois">Gram</span></a>
+      </aside>
+    </main>
+
+    <footer class="rodape">
+      <div class="footer__container">
+        <div class="footer__autor">
+          <p>Desenvolvido por</p>
+          <span id="autor">Aurélio Capingana</span>
+        </div>
+        <div class="footer__rede_socias">
+          <a href="#"
+            ><span class="um">Git</span><span class="dois">hub</span></a
+          >
+          <a href="#"
+            ><span class="um">Liked</span><span class="dois">In</span></a
+          >
+          <a href="#"
+            ><span class="um">Face</span><span class="dois">Book</span></a
+          >
+          <a href="#"
+            ><span class="um">Insta</span><span class="dois">Gram</span></a
+          >
+        </div>
       </div>
-    </div>
-    <!-- <hr> -->
-    <div class="footer__info">
-      <!-- <p>Todos os direitos reservados</p> -->
-      <p>&COPY; Copyright - 2024</p>
-    </div>
-  </footer>
-</body>
+      <!-- <hr> -->
+      <div class="footer__info">
+        <!-- <p>Todos os direitos reservados</p> -->
+        <p>&COPY; Copyright - 2024</p>
+      </div>
+    </footer>
+  </body>
 </html>
