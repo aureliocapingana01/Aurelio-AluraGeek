@@ -94,13 +94,14 @@
     /* margin-top: -500px; */
     margin-top: auto;
   } 
-  /* .rodape .footer__container {
-    display: flex;
-    justify-content: space-between;
-  } */
+  .rodape .footer__container {
+    /* display: flex;
+    justify-content: space-between; */
+    gap: 4px;
+  }
   .rodape .footer__container .footer__autor {
     /* display: flex; */
-    gap: 5px;
+    gap: 2px;
     /* flex: 1; */
     font-size: 10px;
   }
