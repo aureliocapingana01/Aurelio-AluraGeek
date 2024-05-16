@@ -102,13 +102,13 @@
     /* display: flex; */
     gap: 5px;
     /* flex: 1; */
-    font-size: 11px;
+    font-size: 10px;
   }
   .rodape .footer__container .footer__autor #autor {
     color: var(--cor-verde);
   }
   .rodape .footer__container .footer__rede_socias {
-    font-size: 11px;
+    font-size: 10px;
     /* display: flex; */
     gap: 10px;
     /* flex: 1; */
@@ -120,6 +120,6 @@
     display: flex;
     justify-content: space-between;
     color: #ccc;
-    font-size: 10px;
+    font-size: 8px;
   }
 }
