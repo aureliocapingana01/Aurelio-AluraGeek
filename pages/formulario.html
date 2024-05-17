@@ -33,6 +33,28 @@
   </head>
 
   <body>
+    <!-- Carrinho -->
+    <div class="produto__models">
+      <div class="produto__item">
+        <a href="">
+          <div class="produto__item__img"><img src="" /></div>
+          <div class="produto__item__add">+</div>
+        </a>
+        <div class="produto__item__nome">--</div>
+        <div class="produto__item__preco">R$ --</div>
+        <div class="produto__item__desc">--</div>
+      </div>
+      <div class="cart--item">
+        <img src="" />
+        <div class="cart--item-nome">--</div>
+        <div class="cart--item--qtarea">
+          <button class="cart--item-qtmenos">-</button>
+          <div class="cart--item--qt">1</div>
+          <button class="cart--item-qtmais">+</button>
+        </div>
+      </div>
+    </div>
+
     <header class="header">
       <nav class="cabecalho">
         <a href="../index.html" class="logo">
@@ -52,14 +74,16 @@
           </button>
         </div>
 
+        <div class="menu-openner"><span>0</span>🛒</div>
+
         <div class="cabecalho__add">
-          <a href="#" class="cabecalho__add__item"
+          <a href="./pages/formulario.html" class="cabecalho__add__item"
             >Adicione <span class="fa fa-plus"></span
           ></a>
-          <!-- <span class="fa fa-plus"></span> -->
         </div>
       </nav>
     </header>
+
     <main class="container__form">
       <div class="titulo">
         <h2 id="form__titulo">Adicionar Produto</h2>
@@ -103,17 +127,17 @@
           <a href="#"
             ><span class="um">Liked</span><span class="dois">In</span></a
           >
-          <a href="#"
+          <!-- <a href="#"
             ><span class="um">Face</span><span class="dois">Book</span></a
-          >
-          <a href="#"
+          > -->
+          <!-- <a href="#"
             ><span class="um">Insta</span><span class="dois">Gram</span></a
-          >
+          > -->
         </div>
       </div>
       <!-- <hr> -->
       <div class="footer__info">
-        <!-- <p>Todos os direitos reservados</p> -->
+        <p>Todos os direitos reservados</p>
         <p>&COPY; Copyright - 2024</p>
       </div>
     </footer>

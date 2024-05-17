@@ -77,15 +77,16 @@
   cursor: pointer;
 }
 .main .main__produto .produto__card .btn {
-  background: var(--cor-cinza);
+  background: var(--cor-50);
   padding: 5px;
   border-radius: 5px;
   font-weight: 500;
   cursor: pointer;
   transform: rotate();
+  color: var(--cor-cinza);
 }
 .main .main__produto .produto__card .btn:hover {
-  background: var(--cor-50);
+  background: var(--cor-confirma);
   color: var(--cor-cinza);
   transition: 1s ease-out;
 }
@@ -403,7 +404,7 @@
 
 
 /* Celular */
-@media (max-width: 580px) {
+@media (max-width: 600px) {
   .produto__models {
     display: none;
   }

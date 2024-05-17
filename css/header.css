@@ -84,17 +84,17 @@
 
 /* ############################################### */
 /* Celulares */
-@media (max-width: 580px) {
+@media (max-width: 610px) {
   .header {
     position: fixed;
     left: 0;
     top: 0;
-    width: 100%;
+    width: 100vw;
     height: 80px;
     background: var(--cor-50);
   } 
   .cabecalho {
-    padding: 1.5rem 1rem;
+    padding: 1.5rem;
   } 
   .cabecalho .logo {
     font-weight: 700;
